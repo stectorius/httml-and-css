@@ -1,43 +1,55 @@
-# HTML and CSS Projects and Exercises
+# HTTML-and-CSS
 
-Welcome to my repository of HTML and CSS projects and exercises! This repository contains a collection of projects and exercises that I have completed to improve my HTML and CSS skills.
+A repository to store static HTML projects and experiments focused on layout and styling.
+
+> Note: The repo name contains "HTTML" — if this is a typo and should be "HTML", consider renaming the repository.
 
 ## Table of Contents
+- About
+- Purpose & goals
+- Live preview / opening files
+- Folder structure
+- Best practices & style guide
+- How to contribute
+- License & Contact
 
-1. [Introduction](#introduction)
-2. [Projects](#projects)
-3. [Exercises](#exercises)
-4. [Getting Started](#getting-started)
-5. [Contributing](#contributing)
-6. [License](#license)
+## About
+This repo is a collection of static HTML pages and CSS styles that demonstrate UI experiments, layouts, and small front-end projects. It’s primarily used for practicing HTML structure and CSS design.
 
-## Introduction
+## Purpose & goals
+- Practice semantic HTML
+- Explore modern CSS layout techniques (Flexbox, Grid)
+- Build small UI components (cards, forms, navbars)
+- Learn responsive design principles
 
-This repository serves as a showcase of my HTML and CSS skills. Whether you're a beginner looking for examples or an experienced developer interested in exploring HTML and CSS further, you'll find something useful here.
+## Live preview / opening files
+To view any project:
+1. Open the project's `index.html` in a browser.
+2. Or use a local server for a better experience:
+   - VS Code Live Server
+   - python -m http.server
+   - npm http-server
 
-## Projects
+## Folder structure (recommended)
+- /project-1/
+  - index.html
+  - css/
+  - assets/
+- /project-2/
+- /shared-css/ (optional)
+Make sure each project contains an `index.html` and a short `README.md` describing purpose and how to preview it.
 
-Here are the projects included in this repository:
+## Best practices & style guide
+- Use semantic tags: header, nav, main, section, article, footer
+- Keep CSS modular and avoid global overrides
+- Use classes for styling; avoid over-reliance on IDs
+- Use responsive units (%, rem, em) and media queries for breakpoints
 
-1. **Project 1**: [Brief description of project 1]
-2. **Project 2**: [Brief description of project 2]
-3. **Project 3**: [Brief description of project 3]
-   ...
+## How to contribute
+- Create a new folder for your experiment
+- Add `index.html`, CSS, and assets
+- Include a small README explaining the concept and how to view it
+- Open a PR with screenshots
 
-Each project folder contains its own README with detailed information about the project, including its purpose, features, and instructions on how to view it.
-
-## Exercises
-
-In addition to projects, this repository also includes various HTML and CSS exercises. These exercises cover different aspects of web development, from basic layout and styling to responsive design and CSS frameworks.
-
-## Getting Started
-
-To get started with any project or exercise in this repository, simply navigate to its respective folder and follow the instructions provided in the README.
-
-## Contributing
-
-If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. Contributions are welcome!
-
-## License
-
-This repository is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the code as long as you include the original copyright notice and license terms.
+## License & Contact
+Add a LICENSE file if you want to share these projects. Contact: https://github.com/stectorius
